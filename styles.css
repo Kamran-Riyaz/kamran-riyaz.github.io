@@ -15,7 +15,7 @@ h1 {
 
 .fa,
 .projects a {
-    color: #000
+    color: #fff;
 }
 
 * {
@@ -59,6 +59,7 @@ h2 {
 
 .social {
     margin-bottom: 100px;
+    
 }
 
 .social a {
@@ -72,7 +73,7 @@ h2 {
 
 body {
     text-align: center;
-    color: #000;
+    /* color: #000; */
 }
 
 * {
@@ -91,3 +92,9 @@ nav > ul > li {
     width: 40px;
     height: auto;
 }
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.55);
+    border-color: rgba(0,0,0,.1);
+    background-color: white;
+    }
