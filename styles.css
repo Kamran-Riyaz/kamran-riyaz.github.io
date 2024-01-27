@@ -88,5 +88,6 @@ nav > ul > li {
 }
 
 .navbar-brand {
-    width: 5%;
+    width: 40px;
+    height: auto;
 }
