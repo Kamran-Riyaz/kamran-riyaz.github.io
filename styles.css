@@ -59,7 +59,7 @@ h2 {
 
 .social {
     margin-bottom: 100px;
-    
+
 }
 
 .social a {
@@ -80,7 +80,7 @@ body {
     text-decoration: none;
 }
 
-nav > ul > li {
+nav>ul>li {
     font-weight: 500;
     border: 1px outset;
     border-radius: 4px;
@@ -94,7 +94,7 @@ nav > ul > li {
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.55);
-    border-color: rgba(0,0,0,.1);
+    color: rgba(0, 0, 0, .55);
+    border-color: rgba(0, 0, 0, .1);
     background-color: white;
-    }
+}
