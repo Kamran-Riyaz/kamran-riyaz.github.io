@@ -86,3 +86,7 @@ nav > ul > li {
     padding: 5px;
     margin: 4px;
 }
+
+.navbar-brand {
+    width: 5%;
+}
