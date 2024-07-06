@@ -1,175 +1,128 @@
-.contact,
-.social,
-footer,
-h1,
-h2,
-h4 {
-    text-align: center;
-}
-
-
-.projects,
-h1 {
-    margin-top: 50px;
-}
-
-.fa,
-.projects a {
-    color: #fff;
-}
-
+/* General Styles */
 * {
-    box-sizing: border-box;
-}
-
-h1 {
-    letter-spacing: 1px;
-}
-
-.typewrite {
-    text-decoration: none;
-    color: #000;
-}
-
-.typewrite:hover {
-    color: #000;
-    cursor: default;
-}
-
-h4 {
-    margin-top: 20px;
-}
-
-h2 {
-    margin-bottom: 50px;
-}
-
-.contact,
-.social {
-    display: flex;
-    justify-content: center;
-    /* Horizontal centering */
-    align-items: center;
-    /* Vertical centering */
-    height: 100vh;
-    /* Set the section to full height of the viewport */
-    height: 100vh;
-    width: 100%;
-}
-
-.contact-content,
-social-content {
-    text-align: center;
-    /* Center-align the content within the section */
-}
-
-
-
-.contact,
-.social {
-    margin-top: 100px;
-}
-
-.projects ol li {
-    padding: 20px;
-}
-
-.projects a:hover {
-    color: #00f;
-}
-
-.social {
-    margin-bottom: 100px;
-
-}
-
-.social a {
-    padding: 5px;
-    text-decoration: none;
-}
-
-.fa {
-    font-size: 20px;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-    text-align: center;
-    /* color: #000; */
+  text-align: center;
 }
 
-* {
-    text-decoration: none;
+h1,
+h2,
+h4 {
+  text-align: center;
 }
 
-nav>ul>li {
-    font-weight: 500;
-    border: 1px outset;
-    border-radius: 4px;
-    padding: 5px;
-    margin: 4px;
+h1 {
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+/* Navigation */
+nav > ul > li {
+  font-weight: 500;
+  border: 1px outset;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 4px;
 }
 
 .navbar-brand {
-    width: 40px;
-    height: auto;
+  width: 40px;
+  height: auto;
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(0, 0, 0, .55);
-    border-color: rgba(0, 0, 0, .1);
-    background-color: white;
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+  background-color: white;
 }
 
+/* Hero Section */
 .hero {
-    height: 100vh;
-}
-
-.hero {
-    display: flex;
-    justify-content: center;
-    /* Horizontal centering */
-    align-items: center;
-    /* Vertical centering */
-    height: 100vh;
-    /* Set the section to full height of the viewport */
-    position: relative;
-    /* Make the section a positioned container for pseudo-elements */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
 }
 
 .hero::before,
 .hero::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-image: url('https://www.transparenttextures.com/patterns/3px-tile.png');
-    /* Replace with your desired cracker texture */
-    /* animation: cracker 5s linear infinite; */
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
 }
-
-/* .hero::after { */
-/* animation-delay: 2s; Offset the animation for the second pseudo-element */
-/* } */
 
 .content {
-    text-align: center;
-    /* Center-align the content within the section */
-    position: relative;
-    /* Ensure content stays above the pseudo-elements */
-    z-index: 1;
-    /* Ensure content appears above the pseudo-elements */
+  text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
-/* @keyframes cracker {
-    0% {
-        transform: scale(0.5);
-    }
-    50% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(0.5);
-    }
-} */
+/* Projects Section */
+.projects {
+  margin-top: 50px;
+}
+
+.projects ol li {
+  padding: 20px;
+}
+
+.projects a {
+  color: #fff;
+}
+
+.projects a:hover {
+  color: #00f;
+}
+
+/* Contact and Social Sections */
+.contact,
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.contact-content,
+.social-content {
+  text-align: center;
+}
+
+.social a {
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.social {
+  margin-bottom: 100px;
+}
+
+.fa {
+  font-size: 20px;
+}
+
+/* Miscellaneous */
+.contact,
+.social,
+footer {
+  text-align: center;
+}
