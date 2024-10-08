@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kamran Riyaz - Software Engineer - Portfolio</title>
+    <title>Kamran Riyaz - Front End Developer - Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -40,7 +40,13 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#skills-section">Skills</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link text-white" href="#project-section"
                   >Projects</a
@@ -65,9 +71,7 @@
                 >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link text-white"
-                  href="Kamran-Riyaz-Resume.pdf"
+                <a class="nav-link text-white" href="Kamran-Riyaz-Resume.pdf"
                   >Resume</a
                 >
               </li>
@@ -81,12 +85,159 @@
       <div class="content">
         <h1 class="display-2 fw-bold">Kamran Riyaz</h1>
         <div class="px-4 py-5 text-center">
-          <h2 id="about-section" class="display-5">Software Engineer</h2>
+          <h2 id="about-section" class="display-5">Front End Developer</h2>
         </div>
       </div>
     </section>
 
-    <div id="project-section" class="container projects lead pt-5">
+    <div id="about" class="container pt-5 about">
+      <div class="about-content">
+        <h2 class="display-5 fw-bold">About Me 👋</h2>
+        <p class="lead">
+          I'm Kamran Riyaz, a front-end developer from Kashmir. I started my
+          development journey from my teenage years to becoming an IT
+          professional. I am in love with developing minimalistic design-based
+          websites and useful web apps.
+        </p>
+        <a href="#contact-section" class="btn btn-primary mt-3">Get in Touch</a>
+      </div>
+    </div>
+
+    <div id="skills-section" class="container pt-5 vh-100">
+      <div class="skills-content">
+        <h2 class="display-5 fw-bold">Skills 🛠️</h2>
+        <div class="mb-3">
+          <h5 class="text-start">HTML</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 80%"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              80%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h5 class="text-start">CSS</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h5 class="text-start">JavaScript</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 80%"
+              aria-valuenow="80"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              80%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h5 class="text-start">Bootstrap</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              50%
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <h5 class="text-start">Canva</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 90%"
+              aria-valuenow="90"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              90%
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-section" class="container vh-100 text-black pt-5 projects">
+      <h2 class="display-5 fw-bold text-white">Projects 👨‍💻</h2>
+      <div class="row">
+        <div class="col-md-6 mb-6">
+          <div class="card">
+            <img
+              src="images/project-screenshots/BMI-Calculator.png"
+              class="card-img-top"
+              alt="Project 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BMI Calculator</h5>
+              <p class="card-text">
+                A sleek BMI calculator using HTML, CSS, JavaScript, Bootstrap,
+                and neomorphic design.
+              </p>
+              <a
+                href="https://kamran-riyaz.github.io/bmi-calculator/"
+                class="btn btn-primary"
+                target="_blank"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-6">
+          <div class="card">
+            <img
+              src="images/project-screenshots/case-converter2.png"
+              class="card-img-top"
+              alt="Project 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Case Converter</h5>
+              <p class="card-text">
+                A simple case converter built with HTML, Bootstrap, and
+                JavaScript for text transformation.
+              </p>
+              <a
+                href="https://kamran-riyaz.github.io/case-converter/"
+                class="btn btn-primary"
+                target="_blank"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Add more cards as needed -->
+      </div>
+    </div>
+
+    <!-- <div id="project-section" class="container projects lead pt-5">
       <h2 class="display-5 fw-bold">Projects 👨‍💻</h2>
       <div class="d-flex justify-content-center">
         <ol>
@@ -172,7 +323,7 @@
           </li>
         </ol>
       </div>
-    </div>
+    </div> -->
 
     <div id="contact-section" class="container pt-5 contact">
       <div class="contact-content">
@@ -211,11 +362,14 @@
         ></a>
       </div>
     </div>
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" class="btn btn-primary">👆</a>
     <hr />
     <footer>
       <p>Code with ❤️ by Kamran Riyaz</p>
     </footer>
 
-    <a class="btn btn-light w-100" href="#top">Back To Top</a>
+    <!-- <a class="btn btn-light w-100" href="#top">Back To Top</a> -->
+    <script src="scripts/main.js"></script>
   </body>
 </html>
