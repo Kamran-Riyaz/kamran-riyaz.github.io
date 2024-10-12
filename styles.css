@@ -86,10 +86,6 @@ nav > ul > li {
   color: #fff;
 }
 
-/* .projects a:hover {
-  color: #00f;
-} */
-
 /* Contact and Social Sections */
 .contact,
 .social,
@@ -129,28 +125,6 @@ nav > ul > li {
 footer,
 .about {
   text-align: center;
-}
-
-@media (max-width: 767px) {
-  /* Styles for devices with width 767px and below */
-  .card {
-    /* Add your styles here */
-    margin-top: 40px;
-  }
-
-  #back-to-top {
-    bottom: 70px;
-    right: 10px;
-  }
-
-  .contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100%;
-    margin-top: 400px;
-  }
 }
 
 #back-to-top {
