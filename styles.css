@@ -105,6 +105,10 @@ nav > ul > li {
   text-align: center;
 }
 
+.about-me {
+  text-align: justify;
+}
+
 .social a {
   padding: 5px;
   text-decoration: none;
