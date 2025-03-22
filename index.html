@@ -1,273 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio of Kamran Riyaz, a software engineer specializing in web development and minimalistic design." />
+    <meta name="keywords" content="Kamran Riyaz, Software Engineer, Portfolio, Web Development, Projects" />
+    <title>Kamran Riyaz - Software Engineer - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Kamran Riyaz - Software Engineer - Portfolio</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <!-- Bootstrap CDN -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
 
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-</head>
+  <body class="lead bg-dark text-white">
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary bg-dark navbar-light"
+      >
+        <div class="container-fluid">
+          <img class="navbar-brand" src="/images/logo.png" alt="Logo" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#skills-section">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#project-section"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white"
+                  href="https://kamranriyaz.hashnode.dev/"
+                  target="_blank"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact-section"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#social-section"
+                  >Socials</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="Kamran_Riyaz_Resume.pdf"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
 
-<body class="lead bg-dark text-white">
-  <div class="container">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark navbar-light">
-      <div class="container-fluid">
-        <img class="navbar-brand" src="/images/logo.png" alt="Logo" />
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#skills-section">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#project-section">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="https://kamranriyaz.hashnode.dev/" target="_blank">Blog</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#contact-section">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#social-section">Socials</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="Kamran_Riyaz_Resume.pdf">Resume</a>
-            </li>
-          </ul>
+    <section class="hero">
+      <div class="content">
+        <h1 class="display-2 fw-bold">Kamran Riyaz</h1>
+        <div class="px-4 py-5 text-center">
+          <h2 id="about-section" class="display-5">Software Engineer</h2>
         </div>
       </div>
-    </nav>
-  </div>
+    </section>
 
-  <section class="hero">
-    <div class="content">
-      <h1 class="display-2 fw-bold">Kamran Riyaz</h1>
-      <div class="px-4 py-5 text-center">
-        <h2 id="about-section" class="display-5">Software Engineer</h2>
+    <div id="about" class="container pt-5 about">
+      <div class="about-content">
+        <h2 class="display-5 fw-bold">About Me 👋</h2>
+        <div class="container w-75">
+          <p class="about-me">
+            I'm Kamran Riyaz, a software engineer. I started my development
+            journey from my teenage years to becoming a computer science
+            professional. I am in love with developing minimalistic design-based
+            websites and useful web apps.
+          </p>
+        </div>
+        <a href="#contact-section" class="btn btn-primary mt-3">Get in Touch</a>
       </div>
     </div>
-  </section>
 
-  <div id="about" class="container pt-5 about">
-    <div class="about-content">
-      <h2 class="display-5 fw-bold">About Me 👋</h2>
-      <div class="container w-75">
-        <p class="about-me">
-          I'm Kamran Riyaz, a software engineer. I started my
-          development journey from my teenage years to becoming a computer science professional. I am in love with
-          developing minimalistic design-based
-          websites and useful web apps.
-        </p>
-      </div>
-      <a href="#contact-section" class="btn btn-primary mt-3">Get in Touch</a>
-    </div>
-  </div>
+    <div id="skills-section" class="container pt-5 vh-100">
+      <div class="skills-content">
+        <h2 class="display-5 fw-bold">Skills 🛠️</h2>
+        <div class="container w-75">
+          <div class="mb-4">
+            <h5 class="text-start">HTML</h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                80%
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h5 class="text-start">CSS</h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                50%
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h5 class="text-start">JavaScript</h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                80%
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h5 class="text-start">Bootstrap</h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                50%
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h5 class="text-start">React</h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 40%"
+                aria-valuenow="40"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                40%
+              </div>
+            </div>
+          </div>
+          <div class="mb-4">
+            <h5 class="text-start">Canva</h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 90%"
+                aria-valuenow="90"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                90%
+              </div>
+            </div>
+          </div>
 
-  <div id="skills-section" class="container pt-5 vh-100">
-    <div class="skills-content">
-      <h2 class="display-5 fw-bold">Skills 🛠️</h2>
-      <div class="container w-75">
-        <div class="mb-4">
-          <h5 class="text-start">HTML</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-              aria-valuemax="100">
-              80%
+          <div class="mb-4">
+            <h5 class="text-start">Figma</h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 40%"
+                aria-valuenow="40"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                40%
+              </div>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <h5 class="text-start">Software Development Life Cycle</h5>
+            <div class="progress">
+              <div
+                class="progress-bar"
+                role="progressbar"
+                style="width: 50%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              >
+                50%
+              </div>
             </div>
           </div>
         </div>
-        <div class="mb-4">
-          <h5 class="text-start">CSS</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-              aria-valuemax="100">
-              50%
-            </div>
-          </div>
-        </div>
-        <div class="mb-4">
-          <h5 class="text-start">JavaScript</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-              aria-valuemax="100">
-              80%
-            </div>
-          </div>
-        </div>
-        <div class="mb-4">
-          <h5 class="text-start">Bootstrap</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-              aria-valuemax="100">
-              50%
-            </div>
-          </div>
-        </div>
-        <div class="mb-4">
-          <h5 class="text-start">Canva</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
-              aria-valuemax="100">
-              90%
-            </div>
-          </div>
-        </div>
+      </div>
+    </div>
 
-        <div class="mb-4">
-          <h5 class="text-start">Figma</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="40" aria-valuemin="0"
-              aria-valuemax="100">
-              40%
-            </div>
-          </div>
-        </div>
+    <div id="project-section" class="container">
+      <h2 class="display-5 fw-bold text-white">Projects 👨‍💻</h2>
 
-        <div class="mb-4">
-          <h5 class="text-start">Software Development Life Cycle</h5>
-          <div class="progress">
-            <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0"
-              aria-valuemax="100">
-              50%
-            </div>
-          </div>
+      <div class="mt-5">
+        <div class="container">
+          <img
+            class="w-100 rounded"
+            src="images/project-screenshots/travel_agency_page.PNG"
+            alt="Travel Agency Page"
+          />
+        </div>
+        <div class="container text-center mt-3">
+          <span class="fw-bold">Travel Agency Page</span>
+        </div>
+        <div class="container mt-3">
+          <a
+            class="btn btn-primary w-100"
+            href="https://kamran-riyaz.github.io/Travel-Agency-Page/"
+            target="_blank"
+            >View Project</a
+          >
         </div>
       </div>
+
+      <div class="mt-5">
+        <div class="container">
+          <img
+            class="w-100 rounded"
+            src="images/project-screenshots/cafe_nostalgia.png"
+            alt="cafe nostalgia"
+          />
+        </div>
+        <div class="container text-center mt-3">
+          <span class="fw-bold">Café Nostalgia</span>
+        </div>
+        <div class="container mt-3">
+          <a
+            class="btn btn-primary w-100"
+            href="https://kamran-riyaz.github.io/Cafe-Nostalgia/"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <div class="container">
+          <img
+            class="w-100 rounded"
+            src="images/project-screenshots/personal-website.png"
+            alt="personal website"
+          />
+        </div>
+        <div class="container text-center mt-3">
+          <span class="fw-bold">Personal Website</span>
+        </div>
+        <div class="container mt-3">
+          <a
+            class="btn btn-primary w-100"
+            href="https://kamran-riyaz.github.io/John-Doe-personal-website/"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <div class="container">
+          <img
+            class="w-100 rounded"
+            src="images/project-screenshots/nasa_api.png"
+            alt="nasa api pictures"
+          />
+        </div>
+        <div class="container text-center mt-3">
+          <span class="fw-bold">NASA API Pictures</span>
+        </div>
+        <div class="container mt-3">
+          <a
+            class="btn btn-primary w-100"
+            href="https://kamran-riyaz.github.io/nasa-api-pictures/"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <div class="container">
+          <img
+            class="w-100 rounded"
+            src="images/project-screenshots/business_card_maker.png"
+            alt="business card maker"
+          />
+        </div>
+        <div class="container text-center mt-3">
+          <span class="fw-bold">Business Card Maker</span>
+        </div>
+        <div class="container mt-3">
+          <a
+            class="btn btn-primary w-100"
+            href="https://kamran-riyaz.github.io/business-card-maker/"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <div class="container">
+          <img
+            class="w-100 rounded"
+            src="images/project-screenshots/bmi_calculator.png"
+            alt="bmi calculator"
+          />
+        </div>
+        <div class="container text-center mt-3">
+          <span class="fw-bold">BMI Calculator</span>
+        </div>
+        <div class="container mt-3">
+          <a
+            class="btn btn-primary w-100"
+            href="https://kamran-riyaz.github.io/bmi-calculator/"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
+
+      <div class="mt-5">
+        <div class="container">
+          <img
+            class="w-100 rounded"
+            src="images/project-screenshots/case_converter.png"
+            alt="case converter"
+          />
+        </div>
+        <div class="container text-center mt-3">
+          <span class="fw-bold">Case Converter</span>
+        </div>
+        <div class="container mt-3">
+          <a
+            class="btn btn-primary w-100"
+            href="https://kamran-riyaz.github.io/case-converter/"
+            target="_blank"
+            >View Project</a
+          >
+        </div>
+      </div>
     </div>
-  </div>
 
-
-
-  <div id="project-section" class="container">
-
-    <h2 class="display-5 fw-bold text-white">Projects 👨‍💻</h2>
-
-
-    <div class="mt-5">
-      <div class="container">
-        <img class="w-100 rounded" src="images/project-screenshots/cafe_nostalgia.png" alt="cafe nostalgia" />
-      </div>
-      <div class="container text-center mt-3">
-        <span class="fw-bold">Café Nostalgia</span>
-      </div>
-      <div class="container mt-3">
-        <a class="btn btn-primary w-100" href="https://kamran-riyaz.github.io/Cafe-Nostalgia/" target="_blank">View
-          Project</a>
+    <div id="contact-section" class="container pt-5 contact">
+      <div class="contact-content">
+        <h2 class="display-5 fw-bold">Contact Me 📧</h2>
+        <a
+          type="button"
+          class="btn btn-primary"
+          href="mailto:kamranriyazw@gmail.com"
+          >Send Email</a
+        >
       </div>
     </div>
 
-    <div class="mt-5">
-      <div class="container">
-        <img class="w-100 rounded" src="images/project-screenshots/personal-website.png" alt="personal website" />
-      </div>
-      <div class="container text-center mt-3">
-        <span class="fw-bold">Personal Website</span>
-      </div>
-      <div class="container mt-3">
-        <a class="btn btn-primary w-100" href="https://kamran-riyaz.github.io/John-Doe-personal-website/"
-          target="_blank">View
-          Project</a>
-      </div>
-    </div>
-
-    <div class="mt-5">
-      <div class="container">
-        <img class="w-100 rounded" src="images/project-screenshots/nasa_api.png" alt="nasa api pictures" />
-      </div>
-      <div class="container text-center mt-3">
-        <span class="fw-bold">NASA API Pictures</span>
-      </div>
-      <div class="container mt-3">
-        <a class="btn btn-primary w-100" href="https://kamran-riyaz.github.io/nasa-api-pictures/" target="_blank">View
-          Project</a>
-      </div>
-    </div>
-
-    <div class="mt-5">
-      <div class="container">
-        <img class="w-100 rounded" src="images/project-screenshots/business_card_maker.png" alt="business card maker" />
-      </div>
-      <div class="container text-center mt-3">
-        <span class="fw-bold">Business Card Maker</span>
-      </div>
-      <div class="container mt-3">
-        <a class="btn btn-primary w-100" href="https://kamran-riyaz.github.io/business-card-maker/" target="_blank">View
-          Project</a>
+    <div id="social-section" class="container pt-5 social">
+      <div class="social-content">
+        <h2 class="display-5 fw-bold">Socials 🧑‍🤝‍🧑</h2>
+        <a href="https://www.linkedin.com/in/kamranriyaz" target="_blank"
+          ><i class="fa fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Kamran-Riyaz" target="_blank"
+          ><i class="fa fa-github"></i
+        ></a>
+        <a
+          href="https://stackoverflow.com/users/12972801/kamran-riyaz"
+          target="_blank"
+          ><i class="fa fa-stack-overflow"></i
+        ></a>
+        <a href="https://twitter.com/kamranriyazw" target="_blank"
+          ><i class="fa fa-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/kamranriyazw" target="_blank"
+          ><i class="fa fa-instagram"></i
+        ></a>
+        <a href="https://www.youtube.com/@KamranRiyaz" target="_blank"
+          ><i class="fa fa-youtube"></i
+        ></a>
+        <a href="https://www.facebook.com/kamran.riyaz.395" target="_blank"
+          ><i class="fa fa-facebook"></i
+        ></a>
       </div>
     </div>
-
-    <div class="mt-5">
-      <div class="container">
-        <img class="w-100 rounded" src="images/project-screenshots/bmi_calculator.png" alt="bmi calculator" />
-      </div>
-      <div class="container text-center mt-3">
-        <span class="fw-bold">BMI Calculator</span>
-      </div>
-      <div class="container mt-3">
-        <a class="btn btn-primary w-100" href="https://kamran-riyaz.github.io/bmi-calculator/" target="_blank">View
-          Project</a>
-      </div>
-    </div>
-
-    <div class="mt-5">
-      <div class="container">
-        <img class="w-100 rounded" src="images/project-screenshots/case_converter.png" alt="case converter" />
-      </div>
-      <div class="container text-center mt-3">
-        <span class="fw-bold">Case Converter</span>
-      </div>
-      <div class="container mt-3">
-        <a class="btn btn-primary w-100" href="https://kamran-riyaz.github.io/case-converter/" target="_blank">View
-          Project</a>
-      </div>
-    </div>
-  </div>
-
-  <div id="contact-section" class="container pt-5 contact">
-    <div class="contact-content">
-      <h2 class="display-5 fw-bold">Contact Me 📧</h2>
-      <a type="button" class="btn btn-primary" href="mailto:kamranriyazw@gmail.com">Send Email</a>
-    </div>
-  </div>
-
-  <div id="social-section" class="container pt-5 social">
-    <div class="social-content">
-      <h2 class="display-5 fw-bold">Socials 🧑‍🤝‍🧑</h2>
-      <a href="https://www.linkedin.com/in/kamranriyaz" target="_blank"><i class="fa fa-linkedin"></i></a>
-      <a href="https://github.com/Kamran-Riyaz" target="_blank"><i class="fa fa-github"></i></a>
-      <a href="https://stackoverflow.com/users/12972801/kamran-riyaz" target="_blank"><i
-          class="fa fa-stack-overflow"></i></a>
-      <a href="https://twitter.com/kamranriyazw" target="_blank"><i class="fa fa-twitter"></i></a>
-      <a href="https://www.instagram.com/kamranriyazw" target="_blank"><i class="fa fa-instagram"></i></a>
-      <a href="https://www.youtube.com/@KamranRiyaz" target="_blank"><i class="fa fa-youtube"></i></a>
-      <a href="https://www.facebook.com/kamran.riyaz.395" target="_blank"><i class="fa fa-facebook"></i></a>
-    </div>
-  </div>
-  <!-- Back to Top Button -->
-  <a href="#" id="back-to-top" class="btn btn-primary">👆</a>
-  <hr />
-  <footer>
-    <p>Code with ❤️ by Kamran Riyaz</p>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- <a class="btn btn-light w-100" href="#top">Back To Top</a> -->
-  <script src="scripts/main.js"></script>
-</body>
-
+    <!-- Back to Top Button -->
+    <a href="#" id="back-to-top" class="btn btn-primary">👆</a>
+    <hr />
+    <footer>
+      <p>Code with ❤️ by Kamran Riyaz</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <a class="btn btn-light w-100" href="#top">Back To Top</a> -->
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
