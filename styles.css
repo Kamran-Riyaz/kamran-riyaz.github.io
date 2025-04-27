@@ -73,8 +73,6 @@ nav > ul > li {
   z-index: 1;
 }
 
-
-
 /* Contact and Social Sections */
 .contact,
 .social,
@@ -129,6 +127,6 @@ footer,
 }
 
 #project-section {
-  width: 80%!important;
+  width: 80% !important;
   margin-top: 200px;
 }
